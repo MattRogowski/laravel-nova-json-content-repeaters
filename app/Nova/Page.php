@@ -45,9 +45,9 @@ class Page extends Resource
 
             Text::make('Title'),
 
-            Text::make('Single Content Value', 'content->single_content_value'),
+            Text::make('Single Content Value', 'content->single_value'),
 
-            Repeater::make('Repeater Values', 'content->repeater_values')
+            Repeater::make('Repeater Content Values', 'content->repeater_values')
                 ->repeatables([
                     Repeaters\Values::make(),
                 ])
