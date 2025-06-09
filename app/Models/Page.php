@@ -11,7 +11,7 @@ class Page extends Model
     protected function casts(): array
     {
         return [
-            'content' => 'object',
+            'content' => 'array',
         ];
     }
 }
